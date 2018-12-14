@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 33522145349975944}
   - component: {fileID: 23549245190018328}
   - component: {fileID: 114181629762169122}
+  - component: {fileID: 114199546405049604}
+  - component: {fileID: 65986890132844164}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -53,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964242098965594}
   m_LocalRotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4354568, y: 4.8, z: 0.00999999}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4677156818394078}
@@ -157,6 +159,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964242098965594}
   m_Mesh: {fileID: 4300006, guid: 3f724237e395e1a4b804071c9b90bcfb, type: 3}
+--- !u!65 &65986890132844164
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964242098965594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.512834, y: 2.4788768, z: 0.012700001}
+  m_Center: {x: 0, y: 0.00000011920929, z: -4.656613e-10}
 --- !u!114 &114181629762169122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -168,3 +182,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c322f0add0bbf6d40a222d9ce5297ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114199546405049604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964242098965594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdac925f71254849a190bf747a7004f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToRotate: {fileID: 0}
